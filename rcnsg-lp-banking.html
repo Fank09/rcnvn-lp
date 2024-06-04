@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>RCN Singapore Landing Page</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Favicon -->
+  <link rel="icon" sizes="32x32" type="image/png" href="/favicon.png">
+  <link rel="icon" sizes="16x16" type="image/png" href="/favicon.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- LineAwesome Web Icon -->
+  <link rel="stylesheet" href="vendor/lineawesome/css/line-awesome.css">
+  <!-- FontAwesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+    integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+  <!-- Semantic UI -->
+  <link rel="stylesheet" href="vendor/semantic/semantic.min.css">
+  <!-- Bootstrap SelectPicker -->
+  <link rel="stylesheet" href="vendor/bs-select/bootstrap-select.min.css">
+  <!-- Adobe Proxima Nova Font-->
+  <link rel="stylesheet" href="https://use.typekit.net/bbe0ngx.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendor/owlcarousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/query.css">
+  <link rel="stylesheet" href="scss/base.css">
+  <link rel="stylesheet" href="scss/blue_nav.css">
+  <link rel="stylesheet" href="scss/rcnsg-lp.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar-wrap">
+      <!-- <div id="nav-top">
+        <div class="left">
+          <a class="active-tab" href="index.html">Job Seekers</a>
+          <a class="" href="employer.html">Employers</a>
+        </div>
+        <div class="right">
+          <div class="lang lang-pc">
+            <select class="selectpicker">
+              <option>English</option>
+              <option>Thai</option>
+              <option>Japanese</option>
+            </select>
+          </div>
+          <div class="social">
+            <a class="social-item fb-color" href="#"><i class="lab la-facebook-f"></i></a>
+            <a class="social-item in-color" href="#"><i class="lab la-linkedin-in"></i></a>
+            <a class="social-item line-color" href="#"><img class="line-logo" src="images/logo/line-logo.png"
+                alt="Line Account"></a>
+          </div>
+        </div>
+      </div> -->
+      <div id="navbar" class="nav-transparent">
+        <div class="nav-logo">
+          <a href="index.html"><img class="responsive" src="images/logo/rcn_logo_wh.png"
+              alt="Reeracoen Recruitment Co.,Ltd."></a>
+        </div>
+        <div class="navbar-right">
+          <div class="nav-cta">
+            <a class="cta-btn reg-btn-blue" href="#">Contact Us</a>
+          </div>
+          <div class="menu-open" id="menuOpen">
+            <i class="las la-bars bar-icon"></i>
+          </div>
+          <div class="navbar-menu hideMenu">
+            <div class="menu-close">
+              <i class="las la-times close-icon"></i>
+            </div>
+            <div class="menu-inner">
+              <nav id="sub-menu-parent">
+                <!-- <a class="menu-item" href="#">Job Search</a> -->
+                <div class="drop-menu">
+                  <a class="drop-menu-item" href="" data-target="#sub-about" role="button" data-toggle="collapse"
+                    aria-expanded="false" aria-controls="sub-about">Industries<i class="las la-angle-down"></i></a>
+                  <div class="sub-menu collapse" id="sub-about" data-parent="#sub-menu-parent">
+                    <ul>
+                      <li><a href="#">Landing Page</a></li>
+                      <li><a href="#">Landing Page</a></li>
+                      <li><a href="#">Landing Page</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="drop-menu">
+                  <a class="drop-menu-item" href="" role="button" data-target="#sub-services" data-toggle="collapse"
+                    aria-expanded="false" aria-controls="sub-services">Company Information<i
+                      class="las la-angle-down"></i></a>
+                  <div class="sub-menu collapse" id="sub-services" data-parent="#sub-menu-parent">
+                    <ul>
+                      <li><a href="#">Sub Item</a></li>
+                      <li><a href="#">Sub Item</a></li>
+                      <li><a href="#">Sub Item</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="drop-menu">
+                  <a class="drop-menu-item" href="" role="button" data-target="#sub-services" data-toggle="collapse"
+                    aria-expanded="false" aria-controls="sub-services">Services<i class="las la-angle-down"></i></a>
+                  <div class="sub-menu collapse" id="sub-services" data-parent="#sub-menu-parent">
+                    <ul>
+                      <li><a href="#">Sub Item</a></li>
+                      <li><a href="#">Sub Item</a></li>
+                      <li><a href="#">Sub Item</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="lang lang-sp">
+                  <p>Choose Language</p>
+                  <select class="selectpicker">
+                    <option>English</option>
+                    <option>Thai</option>
+                    <option>Japanese</option>
+                  </select>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="nav-search nav-search-sp hideSp">
+          <div class="nav-search-box">
+            <a class="nav-search-link" data-toggle="collapse" href="#navSearch" role="button" aria-expanded="false"
+              aria-controls="navSearch"><i class="las la-search"></i>Search Jobs</a>
+            <div class="collapse" id="navSearch">
+              <div class="search-row">
+                <form class="ui form">
+                  <div class="field">
+                    <input type="text" name="firstname" placeholder="Enter Keyword i.e. Accounting">
+                  </div>
+                  <div class="field">
+                    <select name="industry" multiple="" class="ui fluid dropdown">
+                      <option value="">Select Industry (Multiple)</option>
+                      <option value="software">Software/Information Processing</option>
+                      <option value="web">Web Design</option>
+                      <option value="food">Food Services</option>
+                      <option value="retail">Retail</option>
+                      <option value="hospitality">Hospitality</option>
+                      <option value="ia">Information Architecture</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <select name="industry" multiple="" class="ui fluid dropdown">
+                      <option value="">Select Location (Multiple)</option>
+                      <option value="bkk">Bangkok</option>
+                      <option value="chn">Chonburi</option>
+                      <option value="smk">Samutprakan</option>
+                      <option value="sb">Saraburi</option>
+                      <option value="sk">Sukumvit</option>
+                    </select>
+                  </div>
+                  <button class="submit-btn" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-search nav-search-pc hidePc">
+          <div class="nav-search-box">
+            <div class="search-row">
+              <form class="ui form">
+                <div class="field">
+                  <input type="text" name="firstname" placeholder="Enter Keyword">
+                </div>
+                <div class="field">
+                  <select name="industry" multiple="" class="ui fluid dropdown">
+                    <option value="">Select Industry</option>
+                    <option value="software">Software/Information Processing</option>
+                    <option value="web">Web Design</option>
+                    <option value="food">Food Services</option>
+                    <option value="retail">Retail</option>
+                    <option value="hospitality">Hospitality</option>
+                    <option value="ia">Information Architecture</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <select name="industry" multiple="" class="ui fluid dropdown">
+                    <option value="">Select Location</option>
+                    <option value="bkk">Bangkok</option>
+                    <option value="chn">Chonburi</option>
+                    <option value="smk">Samutprakan</option>
+                    <option value="sb">Saraburi</option>
+                    <option value="sk">Sukumvit</option>
+                  </select>
+                </div>
+                <button class="submit-btn" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div id="hero-wrap">
+      <div class="hero-caption">
+        <h1>Banking and Finance</h1>
+        <a class="cta-btn gradient"> Speak to Our Experts
+        </a>
+      </div>
+      <div class="desktop">
+        <img class="responsive" src="images/rcnsg-lp/hero-pc.jpg" alt="Key Banner Desktop">
+      </div>
+      <div class="mobile">
+        <img class="responsive" src="images/rcnsg-lp/hero-sp.jpg" alt="Key Banner Mobile">
+      </div>
+    </div>
+  </header>
+  <div id="content">
+    <div id="rcnsgLP">
+      <div class="intro">
+        <div class="wrapper">
+          <div class="inner">
+            <div class="intro-container">
+              <div class="article">
+                <h2>Recruitment Specialists in<br>
+                  Banking and Finance</h2>
+                <P>Reeracoen is committed to providing the swiftest and most reliable response to the hiring needs of
+                  leading banks and financial institutions. </P>
+                <p>Armed with over 11 years of experience, our team closely works with financial firms of all sizes to
+                  fill a variety of banking and finance positions.
+                </p>
+                <p>Let us aid you in your search for the best candidates!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="benefit">
+        <div class="wrapper">
+          <div class="inner">
+            <h2>Why Work With Us</h2>
+            <div class="benefit-container">
+              <div class="item">
+                <img src="images/rcnsg-lp/work-1.png" alt="Access to Best Banking 
+                and Finance Talents
+                ">
+                <h3 class="heading">Access to Best Banking
+                  and Finance Talents
+                </h3>
+                <p>We have a vast network of high quality banking and finance candidates which are vigorously vetted by
+                  our Career Consultants.
+                </p>
+              </div>
+              <div class="item">
+                <img src="images/rcnsg-lp/work-2.png" alt="Save Time and Money
+                ">
+                <h3 class="heading">Save Time and Money
+                </h3>
+                <p>We take care of the complex recruitment process from start to finish, so your company can focus on
+                  your core business.
+                </p>
+              </div>
+              <div class="item">
+                <img src="images/rcnsg-lp/work-3.png" alt="Industry Expertise
+                ">
+                <h3 class="heading">Industry Expertise
+                </h3>
+                <p>We have extensive market knowledge stemming from over 11 years of professional recruitment
+                  experience.
+                </p>
+              </div>
+              <div class="item">
+                <img src="images/rcnsg-lp/work-4.png" alt="Recruitment Regulations
+                ">
+                <h3 class="heading">Recruitment Regulations
+                </h3>
+                <p>We stay on top of the latest financial regulations and best practices in the banking and finance
+                  industry.
+                </p>
+              </div>
+            </div>
+            <div class="button">
+              <a class="cta-btn gradient">Contact Us
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="specialisations2">
+        <div class="wrapper">
+          <div class="inner">
+            <h2>Specialisations</h2>
+            <div class="specialisations-container">
+              <div class="left">
+                <ul>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Accounting and Finance
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Applied Business Analysis
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Capital Asset Management
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Credit Analysis
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Equity Research
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Financial Derivatives
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Fund Manager
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">FX Trading
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">General Insurance
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Internal Audit
+                  </li>
+                </ul>
+              </div>
+              <divj class="right">
+                <ul>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Mergers and Acquisitions
+
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Quantitative Analysis
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Relationship Manager
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Retail Banking
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Risk Management
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Sales and Trading
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Tax
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Treasury
+                  </li>
+                  <li>
+                    <img class="icon" src="images/rcnsg-lp/check-icn.png">Venture Capitalism
+                  </li>
+                </ul>
+
+              </divj>
+            </div>
+            <div class="button">
+              <a class="cta-btn gradient">Schedule An Appointment
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="testimonials">
+        <div class="wrapper">
+          <div class="inner">
+            <h2>Testimonials</h2>
+            <div class="testimonials-container">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="box">
+                    <div class="quote">
+                      “ We are grateful for Samuel’s efforts and contributions in helping us find outstanding talents in
+                      Singapore. With his excellent talent matching abilities and professional knowledge, our
+                      recruitment efforts in Singapore have been smooth and successful. ”
+                    </div>
+                    <div class="foot">
+                      <div class="left">
+                        <div class="feedback">
+                          <span class="name">Zachary Chiang</span>
+                          <span class="position">HR Manager, LH Network Service Limited</span>
+                        </div>
+                      </div>
+                      <div class="right">
+                        <img src="images/rcnsg-lp/quote.png" alt="Testimonails">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="button">
+              <a class="cta-btn solid">Looking To Hire
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="testimonials-2">
+        <div class="wrapper">
+          <div class="inner">
+            <h2>Testimonials</h2>
+            <div class="quote">
+              <img src="images/rcnsg-lp/quote.png" alt="Testimonails">
+            </div>
+            <div class="testimonials-container">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="box">
+                    <div class="inner">
+                      <div class="words">
+                        <p class="text">
+                          “ We are grateful for Samuel’s efforts and contributions in helping us find outstanding
+                          talents in Singapore. With his excellent talent matching abilities and professional knowledge,
+                          our recruitment efforts in Singapore have been smooth and successful. ”
+                        </p>
+                        <p class="name">Zachary Chiang</p>
+                        <p class="position">HR Manager, LH Network Service Limited</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="button">
+              <a class="cta-btn gradient">Looking To Hire
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-wrap">
+      <div class="box box-1">
+        <div class="section">
+          <div class="nav-logo">
+            <a href="index.html"><img class="responsive" src="images/logo/rcn_logo_wh.png"
+                alt="Reeracoen Recruitment Co.,Ltd."></a>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Bangkok Branch</h3>
+          <p class="info">801 8th Floor, Mercury Tower, 540 Ploenchit Road, Lumphini, Pathum Wan, Bangkok 10330</p>
+          <div class="tel">
+            <i class="las la-phone"></i><a href="tel:+6602-253-9800">(+66)02-253-9800</a>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Chonburi Branch</h3>
+          <p class="info">4/222 Harbormall Bldg. Unit 10C04-05, 10th Floor, Moo 10, Sukhumvit Road Thungsukhla,
+            Sriracha, Chonburi 20230 Thailand</p>
+          <div class="tel">
+            <i class="las la-phone"></i><a href="tel:+6603-811-1256">(+66)03-811-1256</a>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Follow Us</h3>
+          <div class="social">
+            <a class="" href="#"><i class="lab la-facebook-f"></i></a>
+            <a class="" href="#"><i class="lab la-linkedin-in"></i></a>
+            <a class="" href="#"><img class="line-logo" src="images/logo/line-logo.png" alt="Line Account"></a>
+            <a class="" href="#"><i class="las la-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="box box-2">
+        <div class="section">
+          <h3>Group Companies</h3>
+          <ul class="comp-list">
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Thailand</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Indonesia</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Singapore</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Philippines</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Agensi Pekerjaan Reeracoen Malaysia</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Taiwan</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Hong Kong</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen India</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Shenzhen</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="box box-3">
+        <ul class="link-list">
+          <li><a href="https://www.reeracoen.co.th/" target="_blank">
+              <h3>About Us</h3>
+            </a></li>
+          <li><a href="https://www.reeracoen.co.th/" target="_blank">
+              <h3>Privacy Policy</h3>
+            </a></li>
+          <li><a href="https://www.reeracoen.co.th/" target="_blank">
+              <h3>Terms of Use</h3>
+            </a></li>
+          <li><a href="https://www.reeracoen.co.th/" target="_blank">
+              <h3>Site Map</h3>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">Copyright © 2020 Reeracoen. All rights reserved.</p>
+  </footer>
+  <!-- Back to Top Button -->
+  <!-- <a id="top-button"><span class="material-icons-outlined icon">
+      arrow_upward</span></a> -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="vendor/counter/jquery.countup.js"></script>
+  <script src="vendor/counter/waypoints.min.js"></script>
+  <script src="vendor/bs-select/bootstrap-select.min.js"></script>
+  <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+  <script src="vendor/sumoselect/jquery.sumoselect.min.js"></script>
+  <script src="vendor/semantic/semantic.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: false,
+      dots: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+  <script>
+    $('.lang select').selectpicker();
+  </script>
+  <script>
+    $('.ui.dropdown').dropdown({
+      useLabels: true,
+      maxSelections: 5,
+      message: {
+        count: '{count} selected',
+        maxSelections: '5 Selections Max.',
+      }
+
+    });
+  </script>
+  <script>
+    $('.nav-search-pc .ui.dropdown').dropdown({
+      useLabels: false,
+      maxSelections: false,
+    });
+  </script>
+  <script>
+    $('.counter').countUp({
+      'time': 1000,
+      'delay': 10
+    });
+  </script>
+  <script>
+    // Collapse Button Change //
+
+    $(document).ready(function () {
+      $('.collapse').on("hide.bs.collapse", function () {
+        $(".more-btn").html('View more <i class="las la-plus"></i>');
+      });
+      $('.collapse').on("show.bs.collapse", function () {
+        $(".more-btn").html('View less <i class="las la-minus"></i>');
+      });
+    });
+
+    // $(document).ready(function () {
+    //   $('.collapse')
+    //     .on('shown.bs.collapse', function () {
+    //       $(this)
+    //         .parent()
+    //         .find(".la-plus-circle")
+    //         .removeClass("la-plus-circle")
+    //         .addClass("la-minus-circle")
+    //     })
+    //     .on('hidden.bs.collapse', function () {
+    //       $(this)
+    //         .parent()
+    //         .find(".la-minus-circle")
+    //         .removeClass("la-minus-circle")
+    //         .addClass("la-plus-circle");
+    //         $(".btn").html('<span class="glyphicon glyphicon-collapse-down"></span> Open');
+    //     });
+    // });
+
+    // $('.more-btn').click(function(){
+    //     $(this).text(function(i,old){
+    //         return old=='Read More +' ?  'Read Less -' : 'Read More +';
+    //     });
+    // });
+
+
+  </script>
+</body>
+
+</html>
