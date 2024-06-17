@@ -1,0 +1,378 @@
+#vdoConsulting {
+  color: #000000;
+}
+#vdoConsulting h1,
+#vdoConsulting h2 {
+  color: #1f2b62;
+}
+#vdoConsulting .center {
+  text-align: center;
+}
+#vdoConsulting .message .inner,
+#vdoConsulting .solutions .inner,
+#vdoConsulting .contact .inner {
+  padding: 150px 0;
+}
+#vdoConsulting .banner {
+  background-color: #e5e5e5;
+  background-image: linear-gradient(-90deg, #e5e5e5 0%, #ffffff 100%);
+  padding: 1rem 4rem;
+}
+#vdoConsulting .banner .wrapper {
+  width: auto;
+}
+#vdoConsulting .banner .wrapper .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#vdoConsulting .banner .wrapper .inner .main {
+  width: 45%;
+}
+#vdoConsulting .banner .wrapper .inner .main .caption > * {
+  margin-bottom: 1.5rem;
+}
+#vdoConsulting .banner .wrapper .inner .main .caption h1 {
+  font-size: 3em;
+}
+#vdoConsulting .banner .wrapper .inner .main .caption p {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+#vdoConsulting .banner .wrapper .inner .main .caption .cta-btn {
+  width: auto;
+  padding: 0;
+}
+#vdoConsulting .banner .wrapper .inner .main .caption .cta-btn a {
+  display: inline-flex;
+  border-radius: 100rem;
+  -webkit-border-radius: 100rem;
+  -moz-border-radius: 100rem;
+  -ms-border-radius: 100rem;
+  -o-border-radius: 100rem;
+  padding: 1.5rem 3rem;
+  background-color: #1f2b62;
+  color: #ffffff;
+  font-size: 1.2em;
+  margin-bottom: 0;
+  border: 1px solid #1f2b62;
+}
+#vdoConsulting .banner .wrapper .inner .main .caption .cta-btn a:hover, #vdoConsulting .banner .wrapper .inner .main .caption .cta-btn a:focus {
+  background: #ffffff;
+  color: #1f2b62;
+  opacity: 1;
+  border: 1px solid #1f2b62;
+}
+#vdoConsulting .banner .wrapper .inner .img {
+  width: 50%;
+}
+#vdoConsulting .banner .wrapper .inner .img img {
+  width: 100%;
+  height: auto;
+}
+#vdoConsulting .message .inner > * {
+  margin-bottom: 1.5rem;
+}
+#vdoConsulting .message .inner > *:last-child {
+  margin-bottom: 0;
+}
+#vdoConsulting .message .inner h2 {
+  font-size: 2.5em;
+}
+#vdoConsulting .message .inner .icon img {
+  width: 60px;
+  height: 60px;
+}
+#vdoConsulting .message .inner p {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+#vdoConsulting .solutions {
+  background: #1f2b62;
+  position: relative;
+}
+#vdoConsulting .solutions::before {
+  content: "";
+  background-image: url(../images/consulting/patterns.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  background-blend-mode: overlay;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+#vdoConsulting .solutions .container {
+  position: relative;
+}
+#vdoConsulting .solutions .container .list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#vdoConsulting .solutions .container .list .box {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+#vdoConsulting .solutions .container .list .box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+#vdoConsulting .solutions .container .list .box p {
+  font-size: 1em;
+  color: #ffffff;
+  font-weight: normal;
+  text-align: center;
+  line-height: 2rem;
+}
+#vdoConsulting .video {
+  background: #fafafa;
+}
+#vdoConsulting .video .container {
+  padding: 2rem 0;
+}
+#vdoConsulting .video .container .list .item {
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+  padding-bottom: 4rem;
+  border-bottom: 1px solid #cecece;
+  margin-bottom: 4rem;
+}
+#vdoConsulting .video .container .list .item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+#vdoConsulting .video .container .list .item .youtube-container {
+  width: 50%;
+}
+#vdoConsulting .video .container .list .item .youtube-container .youtube-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0;
+}
+#vdoConsulting .video .container .list .item .youtube-container .youtube-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#vdoConsulting .video .container .list .item .text {
+  width: 50%;
+  padding-left: 2rem;
+}
+#vdoConsulting .video .container .list .item .text > * {
+  margin-bottom: 1rem;
+}
+#vdoConsulting .video .container .list .item .text > *:last-child {
+  margin-bottom: 0;
+}
+#vdoConsulting .video .container .list .item .text h2 {
+  font-size: 1.15em;
+  line-height: 2rem;
+}
+#vdoConsulting .video .container .list .item .text p {
+  font-size: 1em;
+  line-height: 2rem;
+}
+#vdoConsulting .video .container .list .item .text .link {
+  color: #1f2b62;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#vdoConsulting .contact {
+  background: #1f2b62;
+  color: #ffffff;
+}
+#vdoConsulting .contact h2 {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-bottom: 2rem;
+}
+#vdoConsulting .contact .details {
+  width: 600px;
+  margin: 0 auto;
+}
+#vdoConsulting .contact .details .list {
+  display: flex;
+  flex-direction: column;
+}
+#vdoConsulting .contact .details .list .item {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+#vdoConsulting .contact .details .list .item .icon {
+  opacity: 0.8;
+}
+#vdoConsulting .contact .details .list .item .icon i {
+  font-size: 24px;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+}
+#vdoConsulting .contact .details .list .item .link a {
+  font-size: 1em;
+  color: #ffffff;
+}
+#vdoConsulting .contact .btn {
+  padding: 2rem 0;
+  padding-bottom: 0;
+}
+#vdoConsulting .contact .btn a {
+  border: 1px solid #ffffff;
+  padding: 1.5rem 4rem;
+  font-size: 1em;
+  font-weight: 500;
+  border-radius: 1000rem;
+  -webkit-border-radius: 1000rem;
+  -moz-border-radius: 1000rem;
+  -ms-border-radius: 1000rem;
+  -o-border-radius: 1000rem;
+  color: #ffffff;
+}
+#vdoConsulting .contact .btn a:hover, #vdoConsulting .contact .btn a:focus {
+  background: #ffffff;
+  color: #1f2b62;
+  text-decoration: none;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  #vdoConsulting .message .inner,
+#vdoConsulting .solutions .inner,
+#vdoConsulting .contact .inner {
+    padding: 4rem 20px;
+  }
+  #vdoConsulting .banner {
+    background-image: linear-gradient(to bottom, #e5e5e5 0%, #ffffff 100%);
+    padding: 1rem 20px;
+  }
+  #vdoConsulting .banner .wrapper .inner {
+    flex-direction: column;
+  }
+  #vdoConsulting .banner .wrapper .inner .main {
+    width: 100%;
+    order: 2;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  #vdoConsulting .banner .wrapper .inner .main .caption > * {
+    margin-bottom: 1rem;
+  }
+  #vdoConsulting .banner .wrapper .inner .main .caption h1 {
+    font-size: 2.5em;
+  }
+  #vdoConsulting .banner .wrapper .inner .main .caption p {
+    font-size: 1.2em;
+  }
+  #vdoConsulting .banner .wrapper .inner .main .caption .cta-btn {
+    width: auto;
+    padding: 0;
+    margin: 0 auto;
+  }
+  #vdoConsulting .banner .wrapper .inner .main .caption .cta-btn a {
+    font-size: 1.2em;
+  }
+  #vdoConsulting .banner .wrapper .inner .img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  #vdoConsulting .message .inner > * {
+    margin-bottom: 1rem;
+  }
+  #vdoConsulting .message .inner h2 {
+    font-size: 2em;
+  }
+  #vdoConsulting .message .inner .icon img {
+    width: 50px;
+    height: 50px;
+  }
+  #vdoConsulting .message .inner p {
+    font-size: 1.2em;
+  }
+  #vdoConsulting .solutions .container .list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #vdoConsulting .solutions .container .list > * {
+    margin-bottom: 2rem;
+  }
+  #vdoConsulting .solutions .container .list > *:last-child {
+    margin-bottom: 0;
+  }
+  #vdoConsulting .solutions .container .list .box {
+    width: 100%;
+    padding: 0;
+  }
+  #vdoConsulting .solutions .container .list .box img {
+    margin-bottom: 1rem;
+  }
+  #vdoConsulting .solutions .container .list .box p {
+    font-size: 1.2em;
+  }
+  #vdoConsulting .video .container {
+    padding: 2rem 0;
+  }
+  #vdoConsulting .video .container .list .item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+  }
+  #vdoConsulting .video .container .list .item .youtube-container {
+    width: 100%;
+  }
+  #vdoConsulting .video .container .list .item .youtube-container .youtube-wrapper {
+    margin-bottom: 1rem;
+  }
+  #vdoConsulting .video .container .list .item .text {
+    width: 100%;
+    padding-left: 0;
+  }
+  #vdoConsulting .video .container .list .item .text > * {
+    margin-bottom: 1rem;
+  }
+  #vdoConsulting .video .container .list .item .text h2 {
+    font-size: 1.15em;
+  }
+  #vdoConsulting .video .container .list .item .text p {
+    font-size: 1em;
+  }
+  #vdoConsulting .contact h2 {
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+  }
+  #vdoConsulting .contact .details {
+    width: 100%;
+  }
+  #vdoConsulting .contact .details .list .item {
+    margin-bottom: 1rem;
+  }
+  #vdoConsulting .contact .details .list .item .icon i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  #vdoConsulting .contact .btn {
+    padding: 2rem 0;
+    padding-bottom: 0;
+  }
+  #vdoConsulting .contact .btn a {
+    padding: 1.5rem 4rem;
+    font-size: 1em;
+  }
+}

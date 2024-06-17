@@ -1,0 +1,495 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#rcnsg-business {
+  color: #000;
+}
+#rcnsg-business .title h2 {
+  color: #000 !important;
+}
+#rcnsg-business p {
+  color: #4d4d4d;
+}
+#rcnsg-business img {
+  width: 100%;
+  height: auto;
+}
+#rcnsg-business h1, #rcnsg-business h2, #rcnsg-business h3 {
+  margin: 0;
+}
+#rcnsg-business .services .service-link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#rcnsg-business .services .service-link .item {
+  width: 33.33%;
+  overflow: hidden;
+}
+#rcnsg-business .services .service-link .item .box {
+  position: relative;
+  overflow: hidden;
+  background-color: #000000;
+}
+#rcnsg-business .services .service-link .item .box .heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  text-align: center;
+}
+#rcnsg-business .services .service-link .item .box .heading h2 {
+  color: #ffffff;
+  font-size: 1.35em;
+}
+#rcnsg-business .services .service-link .item .box .img-link img {
+  width: 100%;
+  height: auto;
+}
+#rcnsg-business .services .service-link .item .box .img-link::before {
+  display: block;
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+#rcnsg-business .services .service-link .item .box .img-link:hover::before {
+  opacity: 0.5;
+}
+#rcnsg-business .services .service-link .item p {
+  font-size: 1.15em;
+  padding: 1rem 1rem;
+  text-align: center;
+  line-height: 1.5;
+}
+#rcnsg-business .service-flow .service-mcf,
+#rcnsg-business .service-flow .service-hr,
+#rcnsg-business .service-flow .service-visa {
+  margin-bottom: 100px;
+}
+#rcnsg-business .service-flow .service-mcf .slide-1,
+#rcnsg-business .service-flow .service-hr .slide-1,
+#rcnsg-business .service-flow .service-visa .slide-1 {
+  display: flex;
+  flex-direction: row;
+}
+#rcnsg-business .service-flow .service-mcf .slide-1 .img,
+#rcnsg-business .service-flow .service-hr .slide-1 .img,
+#rcnsg-business .service-flow .service-visa .slide-1 .img {
+  width: 50%;
+  padding-right: 4rem;
+}
+#rcnsg-business .service-flow .service-mcf .slide-1 .img img,
+#rcnsg-business .service-flow .service-hr .slide-1 .img img,
+#rcnsg-business .service-flow .service-visa .slide-1 .img img {
+  width: 300px;
+  float: left;
+}
+#rcnsg-business .service-flow .service-mcf .slide-1 .info,
+#rcnsg-business .service-flow .service-hr .slide-1 .info,
+#rcnsg-business .service-flow .service-visa .slide-1 .info {
+  width: 50%;
+  background: #f8f8f8;
+  padding: 2rem;
+}
+#rcnsg-business .service-flow .service-mcf .slide-1 .info h2,
+#rcnsg-business .service-flow .service-hr .slide-1 .info h2,
+#rcnsg-business .service-flow .service-visa .slide-1 .info h2 {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+#rcnsg-business .service-flow .service-mcf .slide-1 .info .link ul,
+#rcnsg-business .service-flow .service-hr .slide-1 .info .link ul,
+#rcnsg-business .service-flow .service-visa .slide-1 .info .link ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+#rcnsg-business .service-flow .service-mcf .slide-1 .info .link ul li,
+#rcnsg-business .service-flow .service-hr .slide-1 .info .link ul li,
+#rcnsg-business .service-flow .service-visa .slide-1 .info .link ul li {
+  margin-right: 1rem;
+}
+#rcnsg-business .service-flow .service-mcf .slide-1 .info .link ul li a,
+#rcnsg-business .service-flow .service-hr .slide-1 .info .link ul li a,
+#rcnsg-business .service-flow .service-visa .slide-1 .info .link ul li a {
+  color: #000;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: underline;
+}
+#rcnsg-business .service-flow .service-mcf .slide-1 .info ul,
+#rcnsg-business .service-flow .service-hr .slide-1 .info ul,
+#rcnsg-business .service-flow .service-visa .slide-1 .info ul {
+  list-style: disc inside;
+}
+#rcnsg-business .service-flow .service-mcf .slide-1 .info ul li,
+#rcnsg-business .service-flow .service-hr .slide-1 .info ul li,
+#rcnsg-business .service-flow .service-visa .slide-1 .info ul li {
+  margin-bottom: 0.5rem;
+}
+#rcnsg-business .service-flow .service-mcf .slide-2 .title h2,
+#rcnsg-business .service-flow .service-mcf .slide-3 .title h2,
+#rcnsg-business .service-flow .service-hr .slide-2 .title h2,
+#rcnsg-business .service-flow .service-hr .slide-3 .title h2,
+#rcnsg-business .service-flow .service-visa .slide-2 .title h2,
+#rcnsg-business .service-flow .service-visa .slide-3 .title h2 {
+  text-transform: capitalize;
+}
+#rcnsg-business .service-flow .service-mcf .slide-2 .slide-image .desktop,
+#rcnsg-business .service-flow .service-mcf .slide-3 .slide-image .desktop,
+#rcnsg-business .service-flow .service-hr .slide-2 .slide-image .desktop,
+#rcnsg-business .service-flow .service-hr .slide-3 .slide-image .desktop,
+#rcnsg-business .service-flow .service-visa .slide-2 .slide-image .desktop,
+#rcnsg-business .service-flow .service-visa .slide-3 .slide-image .desktop {
+  display: block;
+  width: 800px;
+  margin: auto;
+}
+#rcnsg-business .service-flow .service-mcf .slide-2 .slide-image .mobile,
+#rcnsg-business .service-flow .service-mcf .slide-3 .slide-image .mobile,
+#rcnsg-business .service-flow .service-hr .slide-2 .slide-image .mobile,
+#rcnsg-business .service-flow .service-hr .slide-3 .slide-image .mobile,
+#rcnsg-business .service-flow .service-visa .slide-2 .slide-image .mobile,
+#rcnsg-business .service-flow .service-visa .slide-3 .slide-image .mobile {
+  display: none;
+}
+#rcnsg-business .service-flow .service-mcf .slide-3 .content,
+#rcnsg-business .service-flow .service-hr .slide-3 .content,
+#rcnsg-business .service-flow .service-visa .slide-3 .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 4rem;
+}
+#rcnsg-business .service-flow .service-mcf .slide-3 .content .table,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .table,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .table {
+  width: 40%;
+  padding-right: 2rem;
+}
+#rcnsg-business .service-flow .service-mcf .slide-3 .content .table table,
+#rcnsg-business .service-flow .service-mcf .slide-3 .content .table td,
+#rcnsg-business .service-flow .service-mcf .slide-3 .content .table th,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .table table,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .table td,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .table th,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .table table,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .table td,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .table th {
+  border: 1px solid #707070;
+  padding: 10px;
+}
+#rcnsg-business .service-flow .service-mcf .slide-3 .content .table table,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .table table,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#rcnsg-business .service-flow .service-mcf .slide-3 .content .info,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .info,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .info {
+  width: 60%;
+}
+#rcnsg-business .service-flow .service-mcf .slide-3 .content .info ul,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .info ul,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .info ul {
+  list-style: disc inside;
+}
+#rcnsg-business .service-flow .service-mcf .slide-3 .content .info ul li,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .info ul li,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .info ul li {
+  margin-bottom: 0.5rem;
+}
+#rcnsg-business .service-flow .service-hr .slide-1 .img {
+  order: 2;
+  padding-right: 0;
+  padding-left: 4rem;
+}
+#rcnsg-business .service-flow .service-hr .slide-1 .img img {
+  float: right;
+}
+#rcnsg-business .service-flow .service-visa .slide-3 .content {
+  flex-direction: column;
+  padding-top: 0;
+}
+#rcnsg-business .service-flow .service-visa .slide-3 .content .table {
+  width: 100%;
+  padding-right: 0;
+}
+#rcnsg-business .service-flow .service-visa .slide-3 .content .info {
+  width: 100%;
+}
+#rcnsg-business .service-flow .service-visa .slide-3 .content .info ul {
+  list-style: none;
+  font-size: 14px;
+}
+#rcnsg-business .service-flow .button .btn a {
+  padding: 1rem 2rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.25em;
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 100rem;
+  -webkit-border-radius: 100rem;
+  -moz-border-radius: 100rem;
+  -ms-border-radius: 100rem;
+  -o-border-radius: 100rem;
+}
+#rcnsg-business .service-flow .button .btn a:hover, #rcnsg-business .service-flow .button .btn a:focus {
+  background: white;
+  color: #000;
+}
+#rcnsg-business .contact {
+  background-image: url("../images/rcnsg-support/contact-sg.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  color: #ffffff;
+  position: relative;
+}
+#rcnsg-business .contact::before {
+  display: block;
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+}
+#rcnsg-business .contact .inner {
+  position: relative;
+  padding: 10rem 0;
+}
+#rcnsg-business .contact .inner .title h2 {
+  color: #fff !important;
+}
+#rcnsg-business .contact .inner h2 {
+  color: #ffffff;
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+#rcnsg-business .contact .inner .details {
+  width: 100%;
+  margin: 0 auto;
+}
+#rcnsg-business .contact .inner .details .list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#rcnsg-business .contact .inner .details .list .item {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+#rcnsg-business .contact .inner .details .list .item .icon {
+  opacity: 0.8;
+}
+#rcnsg-business .contact .inner .details .list .item .icon i {
+  font-size: 24px;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+}
+#rcnsg-business .contact .inner .details .list .item .link a {
+  font-size: 1em;
+  color: #ffffff;
+}
+#rcnsg-business .owl-stage-outer {
+  margin-bottom: 2rem;
+}
+#rcnsg-business .owl-dots .owl-dot span {
+  background: transparent;
+  border: 1px solid black;
+}
+#rcnsg-business .owl-dots .owl-dot.active span {
+  background: black;
+}
+
+@media only screen and (max-width: 768px) {
+  #rcnsg-business .services .service-link {
+    flex-direction: column;
+  }
+  #rcnsg-business .services .service-link .item {
+    width: 100%;
+  }
+  #rcnsg-business .services .service-link .item .box .img-link img {
+    height: 150px;
+    object-fit: cover;
+  }
+  #rcnsg-business .services .service-link .item p {
+    font-size: 1.15em;
+    padding: 1rem 0;
+  }
+  #rcnsg-business .service-flow .service-mcf,
+#rcnsg-business .service-flow .service-hr,
+#rcnsg-business .service-flow .service-visa {
+    margin-bottom: 100px;
+  }
+  #rcnsg-business .service-flow .service-mcf .slide-1,
+#rcnsg-business .service-flow .service-hr .slide-1,
+#rcnsg-business .service-flow .service-visa .slide-1 {
+    flex-direction: column;
+  }
+  #rcnsg-business .service-flow .service-mcf .slide-1 .img,
+#rcnsg-business .service-flow .service-hr .slide-1 .img,
+#rcnsg-business .service-flow .service-visa .slide-1 .img {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 1rem;
+  }
+  #rcnsg-business .service-flow .service-mcf .slide-1 .img img,
+#rcnsg-business .service-flow .service-hr .slide-1 .img img,
+#rcnsg-business .service-flow .service-visa .slide-1 .img img {
+    width: 200px;
+    float: none;
+    margin: auto;
+  }
+  #rcnsg-business .service-flow .service-mcf .slide-1 .info,
+#rcnsg-business .service-flow .service-hr .slide-1 .info,
+#rcnsg-business .service-flow .service-visa .slide-1 .info {
+    width: 100%;
+    padding: 1.5rem 1rem;
+  }
+  #rcnsg-business .service-flow .service-mcf .slide-2 .slide-image,
+#rcnsg-business .service-flow .service-mcf .slide-3 .slide-image,
+#rcnsg-business .service-flow .service-hr .slide-2 .slide-image,
+#rcnsg-business .service-flow .service-hr .slide-3 .slide-image,
+#rcnsg-business .service-flow .service-visa .slide-2 .slide-image,
+#rcnsg-business .service-flow .service-visa .slide-3 .slide-image {
+    width: 100%;
+  }
+  #rcnsg-business .service-flow .service-mcf .slide-2 .slide-image .desktop,
+#rcnsg-business .service-flow .service-mcf .slide-3 .slide-image .desktop,
+#rcnsg-business .service-flow .service-hr .slide-2 .slide-image .desktop,
+#rcnsg-business .service-flow .service-hr .slide-3 .slide-image .desktop,
+#rcnsg-business .service-flow .service-visa .slide-2 .slide-image .desktop,
+#rcnsg-business .service-flow .service-visa .slide-3 .slide-image .desktop {
+    display: none;
+  }
+  #rcnsg-business .service-flow .service-mcf .slide-2 .slide-image .mobile,
+#rcnsg-business .service-flow .service-mcf .slide-3 .slide-image .mobile,
+#rcnsg-business .service-flow .service-hr .slide-2 .slide-image .mobile,
+#rcnsg-business .service-flow .service-hr .slide-3 .slide-image .mobile,
+#rcnsg-business .service-flow .service-visa .slide-2 .slide-image .mobile,
+#rcnsg-business .service-flow .service-visa .slide-3 .slide-image .mobile {
+    display: block;
+  }
+  #rcnsg-business .service-flow .service-mcf .slide-3 .content,
+#rcnsg-business .service-flow .service-hr .slide-3 .content,
+#rcnsg-business .service-flow .service-visa .slide-3 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+  }
+  #rcnsg-business .service-flow .service-mcf .slide-3 .content .table,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .table,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .table {
+    width: 100%;
+    padding-right: 0;
+    font-size: 1em;
+  }
+  #rcnsg-business .service-flow .service-mcf .slide-3 .content .table table,
+#rcnsg-business .service-flow .service-mcf .slide-3 .content .table td,
+#rcnsg-business .service-flow .service-mcf .slide-3 .content .table th,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .table table,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .table td,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .table th,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .table table,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .table td,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .table th {
+    padding: 1rem;
+  }
+  #rcnsg-business .service-flow .service-mcf .slide-3 .content .info,
+#rcnsg-business .service-flow .service-hr .slide-3 .content .info,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .info {
+    width: 100%;
+  }
+  #rcnsg-business .service-flow .service-hr .slide-1 .img {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+  #rcnsg-business .service-flow .service-hr .slide-1 .info {
+    order: 2;
+  }
+  #rcnsg-business .service-flow .service-visa .slide-3 .content {
+    flex-direction: column;
+    padding-top: 0;
+  }
+  #rcnsg-business .service-flow .service-visa .slide-3 .content .table {
+    width: 100%;
+    padding-right: 0;
+    font-size: 12px;
+  }
+  #rcnsg-business .service-flow .service-visa .slide-3 .content .table table,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .table td,
+#rcnsg-business .service-flow .service-visa .slide-3 .content .table th {
+    padding: 10px;
+  }
+  #rcnsg-business .service-flow .service-visa .slide-3 .content .info {
+    width: 100%;
+  }
+  #rcnsg-business .service-flow .service-visa .slide-3 .content .info ul {
+    list-style: none;
+    font-size: 12px;
+  }
+  #rcnsg-business .service-flow .button .btn a {
+    padding: 1rem 2rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.25em;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 100rem;
+    -webkit-border-radius: 100rem;
+    -moz-border-radius: 100rem;
+    -ms-border-radius: 100rem;
+    -o-border-radius: 100rem;
+  }
+  #rcnsg-business .service-flow .button .btn a:hover, #rcnsg-business .service-flow .button .btn a:focus {
+    background: white;
+    color: #000;
+  }
+  #rcnsg-business .contact {
+    background-position: bottom center;
+    background-size: cover;
+  }
+  #rcnsg-business .contact .inner {
+    position: relative;
+    padding: 5rem 1rem;
+  }
+  #rcnsg-business .contact .inner h2 {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  #rcnsg-business .contact .inner .details {
+    width: 100%;
+  }
+  #rcnsg-business .contact .inner .details .list {
+    align-items: flex-start;
+  }
+  #rcnsg-business .owl-dots .owl-dot span {
+    width: 10px !important;
+    height: 10px !important;
+  }
+}

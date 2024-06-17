@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>RCNSG Support Business</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Favicon -->
+  <link rel="icon" sizes="32x32" type="image/png" href="/favicon.png">
+  <link rel="icon" sizes="16x16" type="image/png" href="/favicon.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- LineAwesome Web Icon -->
+  <link rel="stylesheet" href="vendor/lineawesome/css/line-awesome.css">
+  <!-- FontAwesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+    integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+  <!-- Semantic UI -->
+  <link rel="stylesheet" href="vendor/semantic/semantic.min.css">
+  <!-- Bootstrap SelectPicker -->
+  <link rel="stylesheet" href="vendor/bs-select/bootstrap-select.min.css">
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendor/owlcarousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/query.css">
+  <link rel="stylesheet" href="scss/base.css">
+  <link rel="stylesheet" href="scss/rcnsg-support.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar-wrap">
+      <div id="nav-top">
+        <div class="left">
+          <a class="active-tab" href="index.html">Job Seekers</a>
+          <a class="" href="employer.html">Employers</a>
+        </div>
+        <div class="right">
+          <div class="lang lang-pc">
+            <select class="selectpicker">
+              <option>English</option>
+              <option>Thai</option>
+              <option>Japanese</option>
+            </select>
+          </div>
+          <div class="social">
+            <a class="social-item fb-color" href="#"><i class="lab la-facebook-f"></i></a>
+            <a class="social-item in-color" href="#"><i class="lab la-linkedin-in"></i></a>
+            <a class="social-item line-color" href="#"><img class="line-logo" src="images/logo/line-logo.png"
+                alt="Line Account"></a>
+          </div>
+        </div>
+      </div>
+      <div id="navbar" class="nav-transparent">
+        <div class="nav-logo">
+          <a href="index.html"><img class="responsive" src="images/logo/rcn_logo_wh.png"
+              alt="Reeracoen Recruitment Co.,Ltd."></a>
+        </div>
+        <div class="navbar-right">
+          <div class="nav-cta">
+            <a class="cta-btn ghost" href="#">Sign in</a>
+            <a class="cta-btn reg-btn-blue" href="#">Register!</a>
+          </div>
+          <div class="menu-open" id="menuOpen">
+            <i class="las la-bars bar-icon"></i>
+          </div>
+          <div class="navbar-menu hideMenu">
+            <div class="menu-close">
+              <i class="las la-times close-icon"></i>
+            </div>
+            <div class="menu-inner">
+              <nav id="sub-menu-parent">
+                <a class="menu-item" href="#">Job Search</a>
+                <a class="menu-item" href="/ambassador_top.html">Blog</a>
+                <div class="drop-menu">
+                  <a class="drop-menu-item" href="" data-target="#sub-about" role="button" data-toggle="collapse"
+                    aria-expanded="false" aria-controls="sub-about">Company<i class="las la-angle-down"></i></a>
+                  <div class="sub-menu collapse" id="sub-about" data-parent="#sub-menu-parent">
+                    <ul>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Philosophy</a></li>
+                      <li><a href="#">Group CEO Message</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="drop-menu">
+                  <a class="drop-menu-item" href="" role="button" data-target="#sub-services" data-toggle="collapse"
+                    aria-expanded="false" aria-controls="sub-services">Services<i class="las la-angle-down"></i></a>
+                  <div class="sub-menu collapse" id="sub-services" data-parent="#sub-menu-parent">
+                    <ul>
+                      <li><a href="#">Career Consultation Service</a></li>
+                      <li><a href="#">Sub Item</a></li>
+                      <li><a href="#">Sub Item</a></li>
+                      <li><a href="#">Sub Item</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="lang lang-sp">
+                  <p>Choose Language</p>
+                  <select class="selectpicker">
+                    <option>English</option>
+                    <option>Thai</option>
+                    <option>Japanese</option>
+                  </select>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="nav-search nav-search-sp hideSp">
+          <div class="nav-search-box">
+            <a class="nav-search-link" data-toggle="collapse" href="#navSearch" role="button" aria-expanded="false"
+              aria-controls="navSearch"><i class="las la-search"></i>Search Jobs</a>
+            <div class="collapse" id="navSearch">
+              <div class="search-row">
+                <form class="ui form">
+                  <div class="field">
+                    <input type="text" name="firstname" placeholder="Enter Keyword i.e. Accounting">
+                  </div>
+                  <div class="field">
+                    <select name="industry" multiple="" class="ui fluid dropdown">
+                      <option value="">Select Industry (Multiple)</option>
+                      <option value="software">Software/Information Processing</option>
+                      <option value="web">Web Design</option>
+                      <option value="food">Food Services</option>
+                      <option value="retail">Retail</option>
+                      <option value="hospitality">Hospitality</option>
+                      <option value="ia">Information Architecture</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <select name="industry" multiple="" class="ui fluid dropdown">
+                      <option value="">Select Location (Multiple)</option>
+                      <option value="bkk">Bangkok</option>
+                      <option value="chn">Chonburi</option>
+                      <option value="smk">Samutprakan</option>
+                      <option value="sb">Saraburi</option>
+                      <option value="sk">Sukumvit</option>
+                    </select>
+                  </div>
+                  <button class="submit-btn" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-search nav-search-pc hidePc">
+          <div class="nav-search-box">
+            <div class="search-row">
+              <form class="ui form">
+                <div class="field">
+                  <input type="text" name="firstname" placeholder="Enter Keyword">
+                </div>
+                <div class="field">
+                  <select name="industry" multiple="" class="ui fluid dropdown">
+                    <option value="">Select Industry</option>
+                    <option value="software">Software/Information Processing</option>
+                    <option value="web">Web Design</option>
+                    <option value="food">Food Services</option>
+                    <option value="retail">Retail</option>
+                    <option value="hospitality">Hospitality</option>
+                    <option value="ia">Information Architecture</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <select name="industry" multiple="" class="ui fluid dropdown">
+                    <option value="">Select Location</option>
+                    <option value="bkk">Bangkok</option>
+                    <option value="chn">Chonburi</option>
+                    <option value="smk">Samutprakan</option>
+                    <option value="sb">Saraburi</option>
+                    <option value="sk">Sukumvit</option>
+                  </select>
+                </div>
+                <button class="submit-btn" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div id="hero-wrap">
+      <div class="hero-caption">
+        <h1 class="title">Business support</h1>
+      </div>
+      <div class="desktop">
+        <img class="responsive" src="images/rcnsg-support/header-pc.jpg" alt="Key Banner Desktop">
+      </div>
+      <div class="mobile">
+        <img class="responsive" src="images/rcnsg-support/header-sp.jpg" alt="Key Banner Mobile">
+      </div>
+    </div>
+  </header>
+  <div id="content">
+    <div id="rcnsg-business">
+      <div class="intro">
+        <div class="wrapper">
+          <div class="inner">
+            <div class="article">
+              <p><strong>SINGAPORE PTE. LTD.</strong> Operating as an overseas arm of Neo CareerGroup (Japan), Reeracoen has served more than7,700 corporate partners in over 10 countriesacross Asia. Established in 2011, ReeracoenSingapore has been serving various employersand job seekers of different industries acrossSingapore, proving to be a well-roundedrecruitment agency with a track record.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services">
+        <div class="wrapper">
+          <div class="inner">
+            <div class="title">
+              <h2>OUR SERVICES</h2>
+            </div>
+            <div class="service-link">
+              <div class="item">
+                <div class="box">
+                  <div class="heading">
+                    <h2>MCF Job Posting Service</h2>
+                  </div>
+                  <a class="img-link" href="#mcfSection">
+                    <img src="images/rcnsg-support/services/mcf.jpg" alt="MCF Job Posting Service">
+                  </a>
+                </div>
+                <p>Create job postings on MyCareersFuture as well as helping in the screening and interviewing processes
+                </p>
+              </div>
+              <div class="item">
+                <div class="box">
+                  <div class="heading">
+                    <h2>HR Service</h2>
+                  </div>
+                  <a class="img-link" href="#hrSection">
+                    <img src="images/rcnsg-support/services/hr.jpg" alt="HR Service">
+                  </a>
+                </div>
+                <p>Assist in contacting MOM or other government organizations to inquire on labor managerial matters
+                </p>
+              </div>
+              <div class="item">
+                <div class="box">
+                  <div class="heading">
+                    <h2>Visa Application Service</h2>
+                  </div>
+                  <a class="img-link" href="#visaSection">
+                    <img src="images/rcnsg-support/services/visa.jpg" alt="Visa Application Service">
+                  </a>
+                </div>
+                <p>Assist in the application for Work Passes, Dependent Pass, LTVP and LOC on behalf of the client
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="service-flow">
+        <div class="wrapper">
+          <div class="inner">
+            <div class="service-mcf" id="mcfSection">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="slide-1">
+                    <div class="img">
+                      <img src="images/rcnsg-support/service_1.jpg" alt="MyCareersFuture
+                      Job Posting Service">
+                    </div>
+                    <div class="info">
+                      <p>
+                      <h2>MyCareersFuture<br>
+                        Job Posting Service</h2>
+                      <div class="link">
+                        <ul>
+                          <li><a href="#">Business Scheme</a></li>
+                          <li><a href="#">Fee</a></li>
+                        </ul>
+                      </div>
+                      <ul>
+                        <li>Create job descriptions based on clients’ information</li>
+                        <li>Job posting on MyCareersFuture (e.g. Jobsbank）</li>
+                        <li>1st screening (CV check, phone interview)</li>
+                        <li>Introduce suitable applicants, arranging interviews</li>
+                        <li>Communication with applicants post-interview</li>
+                        <li>Reporting necessary information for visa application</li>
+                      </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slide-2">
+                    <div class="title">
+                      <h2>Business Scheme<br>MCF Job Posting Service</h2>
+                    </div>
+                    <div class="img slide-image">
+                      <div class="desktop">
+                        <img src="images/rcnsg-support/scheme_mcf.jpg" alt="Business Scheme MCF Job Posting Service">
+                      </div>
+                      <div class="mobile">
+                        <img src="images/rcnsg-support/scheme_mcf_sp.jpg" alt="Business Scheme MCF Job Posting Service">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slide-3">
+                    <div class="title">
+                      <h2>Service Fee<br>MCF Job Posting Service</h2>
+                    </div>
+                    <div class="content">
+                      <div class="table">
+                        <table>
+                          <tr>
+                            <th>No. of position<br>
+                              (Annual)</th>
+                            <th>Service Fee<br>
+                              (+GST 7%)</th>
+                          </tr>
+                          <tr>
+                            <td>1 position</td>
+                            <td>SGD 1,800</td>
+                          </tr>
+                          <tr>
+                            <td>3 positions</td>
+                            <td>SGD 5,200</td>
+                          </tr>
+                          </tr>
+                          <tr>
+                            <td>5 positions</td>
+                            <td>SGD 8,000</td>
+                          </tr>
+                        </table>
+                      </div>
+                      <div class="info">
+                        <ul>
+                          <li>Job posting service will start at least 28 days before the Visa application, and will
+                            continue the screening process until the end of the posting period.</li>
+                          <li>This service is only for job postings and applicant screenings (for Visa application
+                            purposes). Sourcing suitable candidates is not a guaranteed service.</li>
+                          <li>Service fee will be charged after the job(s) has been posted. </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-hr" id="hrSection">
+              <div class="owl-carousel owl-theme">
+                <div class="item slide-1">
+                  <div class="img">
+                    <img src="images/rcnsg-support/service_2.jpg" alt="HR Service">
+                  </div>
+                  <div class="info">
+                    <p>
+                    <h2>HR Service</h2>
+                    <div class="link">
+                      <ul>
+                        <li><a href="#">Business Scheme</a></li>
+                        <li><a href="#">Fee</a></li>
+                      </ul>
+                    </div>
+                    <ul>
+                      <li>Contacting MOM or other governmental organization for inquiry</li>
+                      <li>Recruitment consulting</li>
+                      <li>1st screening (CV check, phone interview)</li>
+                      <li>Re-employment support</li>
+                      <li>Recruiting event support</li>
+                    </ul>
+                    </p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slide-2">
+                    <div class="title">
+                      <h2>Business Scheme<br>HR Service</h2>
+                    </div>
+                    <div class="img slide-image">
+                      <div class="desktop">
+                        <img src="images/rcnsg-support/scheme_hr.jpg" alt="Business Scheme HR Service">
+                      </div>
+                      <div class="mobile">
+                        <img src="images/rcnsg-support/scheme_hr_sp.jpg" alt="Business Scheme HR Service">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slide-3">
+                    <div class="title">
+                      <h2>Service Fee<br>HR Service</h2>
+                    </div>
+                    <div class="content">
+                      <div class="table">
+                        <table>
+                          <tr>
+                            <th>HR Service</th>
+                          </tr>
+                          <tr>
+                            <td>1SGD 100 (+GST 7%) / hr（*Minimum 1 hour ～）</td>
+                          </tr>
+                        </table>
+                      </div>
+                      <div class="info">
+                        <p>* Service fee will be charged after completion of service</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="service-visa" id="visaSection">
+              <div class="owl-carousel owl-theme">
+                <div class="item slide-1">
+                  <div class="img">
+                    <img src="images/rcnsg-support/service_3.jpg" alt="Visa Application Service">
+                  </div>
+                  <div class="info">
+                    <p>
+                    <h2>Visa Application Service</h2>
+                    <div class="link">
+                      <ul>
+                        <li><a href="#">Business Scheme</a></li>
+                        <li><a href="#">Fee</a></li>
+                      </ul>
+                    </div>
+                    <ul>
+                      <li>Assessment check with MOM self-assessment tool before Visa application</li>
+                      <li>Tracking support for said application</li>
+                      <li>Additional requests in response to MOM requirements</li>
+                      <li>Issuance of IPA letter and Multiple Journey Visa</li>
+                      <li>Accompanying individual(s) to MOM for face-to-face visitation (if necessary)</li>
+                      </p>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slide-2">
+                    <div class="title">
+                      <h2>Business Scheme<br>Visa Application Service</h2>
+                    </div>
+                    <div class="img slide-image">
+                      <div class="desktop">
+                        <img src="images/rcnsg-support/scheme_visa.jpg" alt="Business Scheme Visa Application Service">
+                      </div>
+                      <div class="mobile">
+                        <img src="images/rcnsg-support/scheme_visa_sp.jpg" alt="Business Scheme Visa Application Service">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="slide-3">
+                    <div class="title">
+                      <h2>Service Fee<br>Visa Application Service</h2>
+                    </div>
+                    <div class="content">
+                      <div class="table">
+                        <table>
+                          <tr>
+                            <th>Visa Type</th>
+                            <th>Service Fee (+GST 7%)</th>
+                          </tr>
+                          <tr>
+                            <td>Employment Pass, S Pass, Work Permit</td>
+                            <td>SGD 1,300</td>
+                          </tr>
+                          <tr>
+                            <td>Dependent Pass, LTVP</td>
+                            <td>SGD 800</td>
+                          </tr>
+                          </tr>
+                          <tr>
+                            <td>National Immunisation Registry (HPB)
+                              <br>* Required for DP Applicants under 12 years old
+                            </td>
+                            <td>SGD 500</td>
+                          </tr>
+                          <tr>
+                            <td>Letter of Consent<br>
+                              * Required for LTVP holder to work in SGd
+                            </td>
+                            <td>SGD 500</td>
+                          </tr>
+                        </table>
+                      </div>
+                      <div class="info">
+                        <ul>
+                          <li>* This service is only for Visa or HPB application, approval of application is not
+                            guaranteed.</li>
+                          <li>* The following application fees will be charged separately. (not subjected to GST)<br>
+                            <strong>For application</strong> Online application fee：S$105<br>
+                            <strong>After approval </strong>Visa issuance fee：S$225 Multiple Journey Visa fee：S$30
+                          </li>
+                          <li>You will be charged the service fee and online application fee after the submission of
+                            visa/HPB application(s). </li>
+                          <li>Visa issuance fee and/or MJV fee will be charged after the application is successfully
+                            approved.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="button">
+              <div class="btn">
+                <a href="#">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="wrapper">
+          <div class="inner">
+            <div class="title">
+              <h2>Contact Us</h2>
+            </div>
+            <h2>REERACOEN SINGAPORE PTE. LTD.
+            </h2>
+            <div class="details">
+              <ul class="list">
+                <li class="item">
+                  <div class="icon">
+                    <i class="las la-map-marker"></i>
+                  </div>
+                  <div class="link">
+                    <a href="https://goo.gl/maps/Q6qPg2k65bCZGDov9" target="_blank">24 Raﬄes Place #17-04B Cliﬀord
+                      Centre Singapore 048621</a>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="icon">
+                    <i class="las la-phone"></i>
+                  </div>
+                  <div class="link">
+                    <a href="tel:+656557-0135" target="_blank">(+65)-6557-0135</a>
+                  </div>
+                </li>
+                <li class="item">
+                  <div class="icon">
+                    <i class="las la-envelope"></i>
+                  </div>
+                  <div class="link">
+                    <a href="mailto:info@reeracoen.sg" target="_blank">info@reeracoen.sg</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="btn">
+              <a href="https://www.reeracoen.co.th/ja/inquiries/new">お問い合わせ</a>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-wrap">
+      <div class="box box-1">
+        <div class="section">
+          <div class="nav-logo">
+            <a href="index.html"><img class="responsive" src="images/logo/rcn_logo_wh.png"
+                alt="Reeracoen Recruitment Co.,Ltd."></a>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Bangkok Branch</h3>
+          <p class="info">801 8th Floor, Mercury Tower, 540 Ploenchit Road, Lumphini, Pathum Wan, Bangkok 10330</p>
+          <div class="tel">
+            <i class="las la-phone"></i><a href="tel:+6602-253-9800">(+66)02-253-9800</a>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Chonburi Branch</h3>
+          <p class="info">4/222 Harbormall Bldg. Unit 10C04-05, 10th Floor, Moo 10, Sukhumvit Road Thungsukhla,
+            Sriracha, Chonburi 20230 Thailand</p>
+          <div class="tel">
+            <i class="las la-phone"></i><a href="tel:+6603-811-1256">(+66)03-811-1256</a>
+          </div>
+        </div>
+        <div class="section">
+          <h3>Follow Us</h3>
+          <div class="social">
+            <a class="" href="#"><i class="lab la-facebook-f"></i></a>
+            <a class="" href="#"><i class="lab la-linkedin-in"></i></a>
+            <a class="" href="#"><img class="line-logo" src="images/logo/line-logo.png" alt="Line Account"></a>
+            <a class="" href="#"><i class="las la-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="box box-2">
+        <div class="section">
+          <h3>Group Companies</h3>
+          <ul class="comp-list">
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Thailand</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Indonesia</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Singapore</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Philippines</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Agensi Pekerjaan Reeracoen Malaysia</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Taiwan</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Hong Kong</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen India</a></li>
+            <li><a href="https://www.reeracoen.co.th/" target="_blank">Reeracoen Shenzhen</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="box box-3">
+        <ul class="link-list">
+          <li><a href="https://www.reeracoen.co.th/" target="_blank">
+              <h3>About Us</h3>
+            </a></li>
+          <li><a href="https://www.reeracoen.co.th/" target="_blank">
+              <h3>Privacy Policy</h3>
+            </a></li>
+          <li><a href="https://www.reeracoen.co.th/" target="_blank">
+              <h3>Terms of Use</h3>
+            </a></li>
+          <li><a href="https://www.reeracoen.co.th/" target="_blank">
+              <h3>Site Map</h3>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copyright">Copyright © 2020 Reeracoen. All rights reserved.</p>
+  </footer>
+  <!-- Back to Top Button -->
+  <!-- <a id="top-button"><span class="material-icons-outlined icon">
+      arrow_upward</span></a> -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="vendor/counter/jquery.countup.js"></script>
+  <script src="vendor/counter/waypoints.min.js"></script>
+  <script src="vendor/bs-select/bootstrap-select.min.js"></script>
+  <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+  <script src="vendor/sumoselect/jquery.sumoselect.min.js"></script>
+  <script src="vendor/semantic/semantic.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+    $('.lang select').selectpicker();
+  </script>
+  <script>
+    $('.ui.dropdown').dropdown({
+      useLabels: true,
+      maxSelections: 5,
+      message: {
+        count: '{count} selected',
+        maxSelections: '5 Selections Max.',
+      }
+
+    });
+  </script>
+  <script>
+    $('.nav-search-pc .ui.dropdown').dropdown({
+      useLabels: false,
+      maxSelections: false,
+    });
+  </script>
+  <script>
+    $('.counter').countUp({
+      'time': 1000,
+      'delay': 10
+    });
+  </script>
+  <script>
+    //Slider Script
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      items: 1,
+      autoplay: false,
+      autoplayTimeout: 5000,
+    })
+  </script>
+  <script>
+    $('a[href^="#"]').on('click', function (e) {
+      // e.preventDefault();
+
+      var target = this.hash,
+        $target = $(target);
+
+      $('html, body').stop().animate({
+        'scrollTop': $target.offset().top - 120
+      }, 500, function () {
+        window.location.hash = target;
+      });
+    });
+
+  </script>
+</body>
+
+</html>

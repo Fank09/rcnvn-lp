@@ -1,7 +1,13 @@
 /* Update 2021 Style */
 /* Only #content of the page */
 #hero-wrap {
-
+  .hero-caption {
+    .title {
+      font-size: 2em;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
 }
 #content {
   flex: 1 1 auto;

@@ -1,0 +1,781 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#landingA .title h2,
+#landingB .title h2 {
+  color: #1f2b62 !important;
+}
+#landingA img,
+#landingB img {
+  width: 100%;
+  height: auto;
+}
+#landingA p,
+#landingB p {
+  color: #000;
+}
+#landingA .cta,
+#landingB .cta {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 4rem;
+  background: #fff;
+  color: #1f2b62;
+  font-size: 1.2em;
+  font-weight: 700;
+  border-radius: 100rem;
+  -webkit-border-radius: 100rem;
+  -moz-border-radius: 100rem;
+  -ms-border-radius: 100rem;
+  -o-border-radius: 100rem;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+#landingA .cta:hover, #landingA .cta:focus,
+#landingB .cta:hover,
+#landingB .cta:focus {
+  background: #139eff;
+  color: #fff;
+  opacity: 1;
+}
+#landingA .cta i,
+#landingB .cta i {
+  margin-left: 10px;
+  font-size: 24px;
+}
+#landingA .banner,
+#landingB .banner {
+  width: 100%;
+  height: calc(100vh - 90px);
+  margin-top: 90px;
+  /* same as #navbar height */
+  display: flex;
+  position: relative;
+  background-image: url("../images/banner/desktop/header-vn.jpg");
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+#landingA .banner::before,
+#landingB .banner::before {
+  display: block;
+  position: absolute;
+  content: " ";
+  background: black;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+#landingA .banner .caption,
+#landingB .banner .caption {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+#landingA .banner .caption > *,
+#landingB .banner .caption > * {
+  margin-bottom: 1rem;
+}
+#landingA .banner .caption .heading-1,
+#landingB .banner .caption .heading-1 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+#landingA .banner .caption .heading-2,
+#landingB .banner .caption .heading-2 {
+  font-size: 1.75em;
+  font-weight: 500;
+}
+#landingA .intro .intro-content,
+#landingB .intro .intro-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#landingA .intro .intro-content .left,
+#landingB .intro .intro-content .left {
+  width: 600px;
+  padding: 2rem 4rem 2rem 0;
+}
+#landingA .intro .intro-content .right,
+#landingB .intro .intro-content .right {
+  width: auto;
+}
+#landingA .why-us,
+#landingB .why-us {
+  background: #fafafa;
+}
+#landingA .why-us .why-content,
+#landingB .why-us .why-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#landingA .why-us .why-content .item,
+#landingB .why-us .why-content .item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#landingA .why-us .why-content .item > *,
+#landingB .why-us .why-content .item > * {
+  margin-bottom: 1rem;
+}
+#landingA .why-us .why-content .item img,
+#landingB .why-us .why-content .item img {
+  width: 120px;
+}
+#landingA .why-us .why-content .item .heading,
+#landingB .why-us .why-content .item .heading {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #1f2b62;
+}
+#landingA .why-us .why-content .item p,
+#landingB .why-us .why-content .item p {
+  text-align: center;
+}
+#landingA .job .tagline,
+#landingA .form .tagline,
+#landingB .job .tagline,
+#landingB .form .tagline {
+  width: 80%;
+  font-size: 1.2em;
+  text-align: center;
+  margin: auto;
+}
+#landingA .job .icon,
+#landingA .form .icon,
+#landingB .job .icon,
+#landingB .form .icon {
+  text-align: center;
+}
+#landingA .job .icon img,
+#landingA .form .icon img,
+#landingB .job .icon img,
+#landingB .form .icon img {
+  width: 65px;
+}
+#landingA .job .job-list,
+#landingA .form .job-list,
+#landingB .job .job-list,
+#landingB .form .job-list {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#landingA .job .job-list .item,
+#landingA .form .job-list .item,
+#landingB .job .job-list .item,
+#landingB .form .job-list .item {
+  width: 33.33%;
+  overflow: hidden;
+}
+#landingA .job .job-list .item .box,
+#landingA .form .job-list .item .box,
+#landingB .job .job-list .item .box,
+#landingB .form .job-list .item .box {
+  position: relative;
+  overflow: hidden;
+  background-color: #000000;
+}
+#landingA .job .job-list .item .box .heading,
+#landingA .form .job-list .item .box .heading,
+#landingB .job .job-list .item .box .heading,
+#landingB .form .job-list .item .box .heading {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  text-align: center;
+}
+#landingA .job .job-list .item .box .heading > *,
+#landingA .form .job-list .item .box .heading > *,
+#landingB .job .job-list .item .box .heading > *,
+#landingB .form .job-list .item .box .heading > * {
+  margin-bottom: 0.5rem;
+}
+#landingA .job .job-list .item .box .heading p,
+#landingA .form .job-list .item .box .heading p,
+#landingB .job .job-list .item .box .heading p,
+#landingB .form .job-list .item .box .heading p {
+  padding: 0;
+}
+#landingA .job .job-list .item .box .heading .job-title,
+#landingA .form .job-list .item .box .heading .job-title,
+#landingB .job .job-list .item .box .heading .job-title,
+#landingB .form .job-list .item .box .heading .job-title {
+  font-size: 1em;
+  font-weight: 500;
+  color: #fff;
+}
+#landingA .job .job-list .item .box .heading .money,
+#landingA .form .job-list .item .box .heading .money,
+#landingB .job .job-list .item .box .heading .money,
+#landingB .form .job-list .item .box .heading .money {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #fff;
+}
+#landingA .job .job-list .item .box .img img,
+#landingA .form .job-list .item .box .img img,
+#landingB .job .job-list .item .box .img img,
+#landingB .form .job-list .item .box .img img {
+  width: 100%;
+  height: auto;
+}
+#landingA .job .job-list .item .box .img::before,
+#landingA .form .job-list .item .box .img::before,
+#landingB .job .job-list .item .box .img::before,
+#landingB .form .job-list .item .box .img::before {
+  display: block;
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+#landingA .job .job-list .item p,
+#landingA .form .job-list .item p,
+#landingB .job .job-list .item p,
+#landingB .form .job-list .item p {
+  font-size: 1.15em;
+  padding: 1rem 1rem;
+  text-align: center;
+  line-height: 1.5;
+}
+#landingA .job .btn .cta,
+#landingA .form .btn .cta,
+#landingB .job .btn .cta,
+#landingB .form .btn .cta {
+  background: #1f2b62;
+  color: #fff;
+}
+#landingA .job .btn .cta:hover, #landingA .job .btn .cta:focus,
+#landingA .form .btn .cta:hover,
+#landingA .form .btn .cta:focus,
+#landingB .job .btn .cta:hover,
+#landingB .job .btn .cta:focus,
+#landingB .form .btn .cta:hover,
+#landingB .form .btn .cta:focus {
+  background: #139eff;
+  color: #fff;
+  opacity: 1;
+}
+#landingA .recruiter,
+#landingB .recruiter {
+  background: #fafafa;
+}
+#landingA .recruiter .info,
+#landingB .recruiter .info {
+  display: flex;
+  align-items: center;
+}
+#landingA .recruiter .info .left,
+#landingB .recruiter .info .left {
+  width: 500px;
+}
+#landingA .recruiter .info .right,
+#landingB .recruiter .info .right {
+  width: auto;
+  padding-left: 3rem;
+}
+#landingA .recruiter .info .right p:first-child,
+#landingB .recruiter .info .right p:first-child {
+  margin-bottom: 1rem;
+}
+#landingA .step,
+#landingB .step {
+  background: #1f2b62;
+}
+#landingA .step .title h2,
+#landingB .step .title h2 {
+  color: #fff !important;
+}
+#landingA .step .step-list,
+#landingB .step .step-list {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 3rem 0;
+}
+#landingA .step .step-list .item,
+#landingB .step .step-list .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #fff;
+  padding: 2rem 2rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#landingA .step .step-list .item .img,
+#landingB .step .step-list .item .img {
+  padding-right: 3rem;
+}
+#landingA .step .step-list .item .img img,
+#landingB .step .step-list .item .img img {
+  width: 65px;
+}
+#landingA .step .step-list .item p,
+#landingB .step .step-list .item p {
+  font-size: 1em;
+  color: #fff;
+  line-height: 1.5;
+}
+#landingA .step .step-list .angle,
+#landingB .step .step-list .angle {
+  width: 100%;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+#landingA .step .step-list .angle img,
+#landingB .step .step-list .angle img {
+  width: 30px;
+}
+#landingA .form .vn-form,
+#landingB .form .vn-form {
+  padding: 2rem 0;
+}
+#landingA .form .vn-form .ui.form,
+#landingB .form .vn-form .ui.form {
+  width: 600px;
+  margin: auto;
+  border: 1px solid #1f2b62;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  padding: 2rem 2rem;
+}
+#landingA .form .vn-form .ui.form .field label,
+#landingB .form .vn-form .ui.form .field label {
+  margin-bottom: 0.5rem;
+}
+#landingA .form .vn-form .ui.form .field input:not([type]),
+#landingA .form .vn-form .ui.form .field input[type=email],
+#landingA .form .vn-form .ui.form .field input[type=tel],
+#landingA .form .vn-form .ui.form .field input[type=text],
+#landingA .form .vn-form .ui.form .field textarea,
+#landingB .form .vn-form .ui.form .field input:not([type]),
+#landingB .form .vn-form .ui.form .field input[type=email],
+#landingB .form .vn-form .ui.form .field input[type=tel],
+#landingB .form .vn-form .ui.form .field input[type=text],
+#landingB .form .vn-form .ui.form .field textarea {
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+  border: 1px solid #1f2b62 !important;
+}
+#landingA .form .vn-form .ui.form .btn .cta,
+#landingB .form .vn-form .ui.form .btn .cta {
+  padding: 1rem 2rem;
+}
+#landingA .faq,
+#landingB .faq {
+  background: #fafafa;
+}
+#landingA .faq .faq-container .item,
+#landingB .faq .faq-container .item {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+  text-align: left;
+  border-bottom: 1px solid #adadad;
+}
+#landingA .faq .faq-container .item > *,
+#landingB .faq .faq-container .item > * {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+#landingA .faq .faq-container .item .question,
+#landingB .faq .faq-container .item .question {
+  color: #1f2b62;
+  font-size: 1em;
+  font-weight: 700;
+}
+#landingA .faq .faq-container .item .answer,
+#landingB .faq .faq-container .item .answer {
+  color: #000;
+  font-size: 1em;
+}
+#landingA .faq .faq-container .item:last-child,
+#landingB .faq .faq-container .item:last-child {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+/* Landing B */
+#landingB .banner {
+  width: 100%;
+  height: calc(100vh - 90px);
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  background-image: url("../images/banner/desktop/header-vn.jpg");
+  background-size: cover;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+#landingB .banner::before {
+  display: block;
+  position: absolute;
+  content: " ";
+  background: black;
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+#landingB .banner .caption {
+  width: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+#landingB .banner .caption > * {
+  margin-bottom: 1rem;
+}
+#landingB .banner .caption .heading-1 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+#landingB .banner .caption .heading-2 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+#landingB .banner .banner-form {
+  width: 40%;
+  padding: 1.5rem 1rem;
+}
+#landingB .banner .banner-form .vn-form .ui.form {
+  background: #fff;
+  width: 100%;
+  border: 0;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  padding: 1.5rem 1.5rem;
+}
+#landingB .banner .banner-form .vn-form .ui.form .form-title {
+  display: block;
+  font-size: 1.35em;
+  color: #1f2b62;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+#landingB .banner .banner-form .vn-form .ui.form .field label {
+  margin-bottom: 0.5rem;
+}
+#landingB .banner .banner-form .vn-form .ui.form .field input:not([type]),
+#landingB .banner .banner-form .vn-form .ui.form .field input[type=email],
+#landingB .banner .banner-form .vn-form .ui.form .field input[type=tel],
+#landingB .banner .banner-form .vn-form .ui.form .field input[type=text],
+#landingB .banner .banner-form .vn-form .ui.form .field textarea {
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+  border: 1px solid #1f2b62 !important;
+}
+#landingB .banner .banner-form .vn-form .ui.form .btn .cta {
+  padding: 1rem 2rem;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #content .wrapper .inner {
+    padding: 4rem 20px;
+  }
+
+  #landingA .cta,
+#landingB .cta {
+    width: 100%;
+    padding: 1.5rem 4rem;
+    background: #fff;
+    color: #1f2b62;
+    font-size: 1.2em;
+    margin-top: 1rem;
+  }
+  #landingA .banner,
+#landingB .banner {
+    height: 600px;
+    margin-top: 90px;
+    background-image: url("../images/banner/mobile/header-vn.jpg");
+    background-size: cover;
+    padding: 2rem;
+  }
+  #landingA .banner .caption > *,
+#landingB .banner .caption > * {
+    margin-bottom: 1rem;
+  }
+  #landingA .banner .caption .heading-1,
+#landingB .banner .caption .heading-1 {
+    font-size: 2.5em;
+  }
+  #landingA .banner .caption .heading-2,
+#landingB .banner .caption .heading-2 {
+    font-size: 1.5em;
+  }
+  #landingA .intro .intro-content,
+#landingB .intro .intro-content {
+    flex-direction: column;
+  }
+  #landingA .intro .intro-content .left,
+#landingB .intro .intro-content .left {
+    width: 100%;
+    padding: 1rem 1rem;
+  }
+  #landingA .why-us .why-content,
+#landingB .why-us .why-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  #landingA .why-us .why-content .item,
+#landingB .why-us .why-content .item {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #landingA .why-us .why-content .item > *,
+#landingB .why-us .why-content .item > * {
+    margin-bottom: 1rem;
+  }
+  #landingA .why-us .why-content .item img,
+#landingB .why-us .why-content .item img {
+    width: 100px;
+  }
+  #landingA .why-us .why-content .item .heading,
+#landingB .why-us .why-content .item .heading {
+    font-size: 1.2em;
+  }
+  #landingA .job .tagline,
+#landingA .form .tagline,
+#landingB .job .tagline,
+#landingB .form .tagline {
+    width: 100%;
+    font-size: 1.2em;
+  }
+  #landingA .job .icon img,
+#landingA .form .icon img,
+#landingB .job .icon img,
+#landingB .form .icon img {
+    width: 50px;
+  }
+  #landingA .job .job-list,
+#landingA .form .job-list,
+#landingB .job .job-list,
+#landingB .form .job-list {
+    padding: 2rem 0;
+    flex-direction: row;
+  }
+  #landingA .job .job-list .item,
+#landingA .form .job-list .item,
+#landingB .job .job-list .item,
+#landingB .form .job-list .item {
+    width: 50%;
+  }
+  #landingA .job .job-list .item .box .heading > *,
+#landingA .form .job-list .item .box .heading > *,
+#landingB .job .job-list .item .box .heading > *,
+#landingB .form .job-list .item .box .heading > * {
+    margin-bottom: 0.5rem;
+  }
+  #landingA .job .job-list .item .box .heading .job-title,
+#landingA .form .job-list .item .box .heading .job-title,
+#landingB .job .job-list .item .box .heading .job-title,
+#landingB .form .job-list .item .box .heading .job-title {
+    font-size: 1em;
+  }
+  #landingA .job .job-list .item .box .heading .money,
+#landingA .form .job-list .item .box .heading .money,
+#landingB .job .job-list .item .box .heading .money,
+#landingB .form .job-list .item .box .heading .money {
+    font-size: 1em;
+  }
+  #landingA .job .job-list .item p,
+#landingA .form .job-list .item p,
+#landingB .job .job-list .item p,
+#landingB .form .job-list .item p {
+    font-size: 1.15em;
+    padding: 1rem 1rem;
+    text-align: center;
+    line-height: 1.5;
+  }
+  #landingA .recruiter .info,
+#landingB .recruiter .info {
+    flex-direction: column;
+    align-items: center;
+  }
+  #landingA .recruiter .info .left,
+#landingB .recruiter .info .left {
+    width: 100%;
+    padding: 0 2rem 2rem 2rem;
+  }
+  #landingA .recruiter .info .right,
+#landingB .recruiter .info .right {
+    padding-left: 0;
+  }
+  #landingA .step .step-list,
+#landingB .step .step-list {
+    width: 100%;
+    padding: 2rem 0;
+  }
+  #landingA .step .step-list .item,
+#landingB .step .step-list .item {
+    padding: 1rem 1rem;
+  }
+  #landingA .step .step-list .item .img,
+#landingB .step .step-list .item .img {
+    padding-right: 20px;
+  }
+  #landingA .step .step-list .item .img img,
+#landingB .step .step-list .item .img img {
+    width: 50px;
+  }
+  #landingA .step .step-list .angle,
+#landingB .step .step-list .angle {
+    padding: 1rem 0;
+  }
+  #landingA .step .step-list .angle img,
+#landingB .step .step-list .angle img {
+    width: 30px;
+  }
+  #landingA .form .vn-form,
+#landingB .form .vn-form {
+    padding: 2rem 0;
+  }
+  #landingA .form .vn-form .ui.form,
+#landingB .form .vn-form .ui.form {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  #landingA .form .vn-form .ui.form .field input:not([type]),
+#landingA .form .vn-form .ui.form .field input[type=email],
+#landingA .form .vn-form .ui.form .field input[type=tel],
+#landingA .form .vn-form .ui.form .field input[type=text],
+#landingA .form .vn-form .ui.form .field textarea,
+#landingB .form .vn-form .ui.form .field input:not([type]),
+#landingB .form .vn-form .ui.form .field input[type=email],
+#landingB .form .vn-form .ui.form .field input[type=tel],
+#landingB .form .vn-form .ui.form .field input[type=text],
+#landingB .form .vn-form .ui.form .field textarea {
+    padding: 1rem 1rem;
+  }
+  #landingA .form .vn-form .ui.form .btn .cta,
+#landingB .form .vn-form .ui.form .btn .cta {
+    padding: 1rem 2rem;
+  }
+  #landingA .faq .faq-container .item,
+#landingB .faq .faq-container .item {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 0;
+    text-align: left;
+    border-bottom: 1px solid #adadad;
+  }
+  #landingA .faq .faq-container .item > *,
+#landingB .faq .faq-container .item > * {
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  #landingA .faq .faq-container .item .question,
+#landingB .faq .faq-container .item .question {
+    color: #1f2b62;
+    font-size: 1em;
+  }
+  #landingA .faq .faq-container .item .answer,
+#landingB .faq .faq-container .item .answer {
+    color: #000;
+    font-size: 1em;
+  }
+  #landingA .faq .faq-container .item:last-child,
+#landingB .faq .faq-container .item:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  /* Landing B */
+  #landingB .banner {
+    height: auto;
+    flex-direction: column;
+    background-image: url("../images/banner/mobile/header-vn.jpg");
+    justify-content: center;
+    padding: 3rem 20px;
+  }
+  #landingB .banner .caption {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+  #landingB .banner .caption > * {
+    margin-bottom: 1rem;
+  }
+  #landingB .banner .caption .heading-1 {
+    font-size: 2.5em;
+  }
+  #landingB .banner .caption .heading-2 {
+    font-size: 1.5em;
+  }
+  #landingB .banner .banner-form {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  #landingB .banner .banner-form .vn-form .ui.form {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  #landingB .banner .banner-form .vn-form .ui.form .form-title {
+    font-size: 18px;
+  }
+  #landingB .banner .banner-form .vn-form .ui.form .field input:not([type]),
+#landingB .banner .banner-form .vn-form .ui.form .field input[type=email],
+#landingB .banner .banner-form .vn-form .ui.form .field input[type=tel],
+#landingB .banner .banner-form .vn-form .ui.form .field input[type=text],
+#landingB .banner .banner-form .vn-form .ui.form .field textarea {
+    padding: 1rem 20px;
+  }
+  #landingB .banner .banner-form .vn-form .ui.form .btn .cta {
+    padding: 1rem 2rem;
+  }
+}

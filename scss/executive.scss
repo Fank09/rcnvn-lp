@@ -1,0 +1,190 @@
+#hero-wrap {
+  .caption-large {
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: normal;
+  }
+}
+#executive-search {
+  .title {
+    h2 {
+      color: #000000 !important;
+    }
+  }
+  .intro {
+    .intro-content {
+      display: flex;
+      align-items: center;
+      .info {
+        width: 50%;
+        & > * {
+          margin-bottom: 1.5rem;
+        }
+        & > *:last-child {
+          margin-bottom: 0;
+          margin-top: 0.5rem;
+        }
+        .btn {
+          justify-content: start;
+          &.gradient {
+            a {
+              background-color: #000000;
+              background-image: linear-gradient(
+                45deg,
+                #000000 0%,
+                #383838 100%
+              );
+              padding: 0 2rem;
+              &::before {
+                background-image: linear-gradient(
+                  45deg,
+                  #383838 0%,
+                  #000000 100%
+                );
+              }
+            }
+          }
+        }
+      }
+      .img {
+        width: 50%;
+        padding-left: 2rem;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+  .service {
+    background: #f2f2f2;
+    .service-link {
+      .list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .item {
+          position: relative;
+          width: 25%;
+          overflow: hidden;
+          background-color: #000000;
+          .heading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 100;
+            text-align: center;
+
+            h2 {
+              color: #ffffff;
+              font-size: 1.2em;
+            }
+          }
+          .img-link {
+            img {
+              width: 100%;
+              height: auto;
+            }
+          }
+          .img-link::before {
+            display: block;
+            position: absolute;
+            content: " ";
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.4;
+            transition: all 0.4s ease-in-out;
+            -webkit-transition: all 0.4s ease-in-out;
+            -moz-transition: all 0.4s ease-in-out;
+            -ms-transition: all 0.4s ease-in-out;
+            -o-transition: all 0.4s ease-in-out;
+          }
+          .img-link:hover::before {
+            opacity: 0.5;
+          }
+        }
+        .item:nth-child(2) .img-link::before,
+        .item:nth-child(4) .img-link::before,
+        .item:nth-child(5) .img-link::before,
+        .item:nth-child(7) .img-link::before {
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+  #contact-us {
+    .right {
+      background-color: #000000;
+      background-image: linear-gradient(180deg, #000000 0%, #3E3E3E 100%);
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #hero-wrap {
+    .caption-large {
+      font-size: 1.5em;
+    }
+  }
+  #executive-search {
+    .intro {
+      .intro-content {
+        flex-direction: column;
+        .info {
+          width: 100%;
+          order: 2;
+          & > * {
+            margin-bottom: 1rem;
+          }
+          & > *:last-child {
+            margin-top: 0;
+          }
+          .btn {
+            justify-content: center;
+          }
+        }
+        .img {
+          width: 100%;
+          padding-left: 0;
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+    .service {
+      .service-link {
+        .list {
+          .item {
+            width: 50%;
+            height: 25vw;
+            .heading {
+              h2 {
+                font-size: 14px;
+              }
+            }
+          }
+          .item:nth-child(1) .img-link::before,
+          .item:nth-child(4) .img-link::before,
+          .item:nth-child(5) .img-link::before,
+          .item:nth-child(8) .img-link::before {
+            opacity: 0.4;
+          }
+          .item:nth-child(2) .img-link::before,
+          .item:nth-child(3) .img-link::before,
+          .item:nth-child(6) .img-link::before,
+          .item:nth-child(7) .img-link::before {
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+    #contact-us {
+      .right {
+        background-color: #000000;
+        background-image: linear-gradient(180deg, #000000 0%, #3E3E3E 100%);
+      }
+    }
+  }
+
+}

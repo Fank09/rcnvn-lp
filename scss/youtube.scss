@@ -1,0 +1,55 @@
+#add_youtube {
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  .youtube {
+    background-image: url(/images/youtube/bg-youtube.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    padding: 0 4rem;
+    .youtube-container {
+      padding-bottom: 1.5rem;
+      .youtube-wrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        height: 0;
+        iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          box-shadow: 5px 15px 10px rgb(0 0 0 / 20%);
+        }
+      }
+    }
+  }
+  .btn {
+    margin-top: 2rem;
+    a {
+      display: flex;
+      align-items: center;
+      i {
+        font-size: 26px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  #add_youtube {
+    padding-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+    .youtube {
+      padding: 0;
+      .youtube-container {
+        padding-bottom: 0;
+      }
+    }
+    .btn {
+      margin-top: 1.5rem;
+    }
+  }
+}
