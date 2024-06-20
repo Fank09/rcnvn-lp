@@ -565,6 +565,12 @@ footer .minimal ul.tels .phone {
 footer .minimal ul.tels .phone .icon {
   font-size: 20px;
   margin-right: 8px;
+  opacity: 0.8;
+}
+footer .minimal ul.tels .phone .text {
+  font-weight: 500;
+  margin-right: 10px;
+  opacity: 0.8;
 }
 footer .minimal ul.sns {
   display: flex;
